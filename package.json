@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "name": "labour-payment-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:frontend",
+    "start:frontend": "cd frontend/labour-payment-app && npm start",
+    "start:backend": "cd backend/labour-payment/labour-payment && mvn spring-boot:run",
+    "install:frontend": "cd frontend/labour-payment-app && npm install",
+    "install:backend": "cd backend/labour-payment/labour-payment && mvn install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeepsivalingam/labour-payment-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeepsivalingam/labour-payment-system/issues"
+  },
+  "homepage": "https://github.com/pradeepsivalingam/labour-payment-system#readme"
+}
